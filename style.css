@@ -1,0 +1,159 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color:#1a0302;
+    font-family: Manrope, sans-serif;
+    font-size: 31px;
+    font-weight: 800;
+
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.login {
+    color: #000000;
+    border-bottom: 2px solid #000;
+    margin-top: 4px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    font: 18px Manrope, sans-serif;
+    margin: 10px 0px 0px 20px;
+    
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 60px;
+    margin-top: 40px;
+    padding-left: 60px;
+
+
+}
+
+.subscribe {
+    color: #fff;
+    font: 16px Manrope, sans-serif;
+    background-color: #e44d36;
+    line-height: inherit;
+    cursor: pointer;
+    margin: 15px 0 0;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.heading {
+    color: #031639;
+    font: 29px Manrope, sans-serif;
+    margin: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 40px;
+ 
+}
+/**
+span {
+    font-weight: 800;
+}
+.first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+height: 550px;
+width: 850px;
+border-radius: 6px;
+margin-top: 40px;
+
+}
+
+.first-child {
+    position: relative;
+    top: 221px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: left;
+    font-family: Manrope, sans-serif;
+    color: #ffffff; 
+}
+
+.second-child {
+    position: absolute;
+     top: 256px;
+     left: 30px;
+     font-weight: 800;
+     font-size: 26px;
+     text-align: left;
+     font-family: Manrope, sans-serif; 
+}
+
+
+button {
+    margin: 0px 0px 6px 0px;
+    padding: 0 8px 6px 8px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 6px;
+    
+}
+
+.third {
+    position: absolute;
+    top: 295px;
+    left: 30px;
+    right: 30px;
+    bottom: 0;
+    font-weight: 500;
+    font-family: Manrope, sans-serif;
+    font-size: 34px;
+    line-height: 47px;
+    color: #ffffff;
+    
+
+}
+
+.fourth {
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    margin: 0px 0px 6px 0px;
+    font-family: Manrope, sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: left;
+    color: #ffffff;
+    
+}
+/* display: flex and justify-content: center for getting an image with 
+text on it at the center of the webpage. don't use align-items: center */
+
+
+
+**/
+
+
+
+
+
+
+
+
