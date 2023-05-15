@@ -166,8 +166,9 @@ a:hover {
     border-radius: 4px;
     padding: 16px;
     margin: 16px;
-    width: 375px;
+    width: 385px;
     height: 250px;
+
     
 }
 
@@ -176,7 +177,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-right: 0px;
  
 }
 
@@ -202,19 +204,19 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 h4 {
     font-family: Manrope, sans-serif;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 29px;
     text-align: left;
     letter-spacing: normal;
     color: #ffffff;
     margin-left: 0%;
     margin-bottom: 6px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #prem {
@@ -231,8 +233,53 @@ h4 {
     
 }
 
+.another-card {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+}
 
+.same-class {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 385px;
+    height: 250px;
+    
+}
+.another-card-2 {
+    background: url(https://cdn.mos.cms.futurecdn.net/rAGuXkQD7LTwXvsParExVB-1024-80.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin-top: 0px;
+    padding-top: 0px;
+ 
+}
 
+#car {
+    background: url(https://cdn.mos.cms.futurecdn.net/n6WsXJ2Lk2ALiyQsjAamXf-1024-80.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#carry {
+    background: url(https://cdn.mos.cms.futurecdn.net/YZnL7tannztaJ32NWxRoH9-970-80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin-top: 0;
+}
 
 
 
