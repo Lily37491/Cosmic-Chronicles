@@ -37,7 +37,7 @@ body {
     text-align: center;
     padding-left: 60px;
     margin-top: 40px;
-    padding-left: 60px;
+    
 
 
 }
@@ -64,6 +64,8 @@ body {
     text-align: center;
     margin-top: 60px;
     padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
  
 }
 
@@ -145,7 +147,7 @@ a {
 
 a:hover {
     position: relative;
-    bottom: 10px;
+    bottom: 8px;
 }
 
 .another {
@@ -175,7 +177,7 @@ a:hover {
     background-size: cover;
     border-radius: 4px;
     margin-top: 0;
-
+ 
 }
 
 .may {
@@ -184,16 +186,15 @@ a:hover {
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 19px;
     font-family: Manrope, sans-serif;
     text-align: left;
     letter-spacing: normal;
-    color: #ffffff;
     padding-left: 5px;
     margin-left: 0%;
     margin-top: 6px;
     margin-bottom: 6px;
-
+    
 }
 
 #card-two {
@@ -203,6 +204,33 @@ a:hover {
     border-radius: 4px;
     margin-top: 0;
 }
+
+h4 {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 0%;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+#prem {
+    font-size: 14px;
+    line-height: 28px;
+    background-color: #e4d636;
+    color: #000;
+    border-radius: 3px;
+}
+
+#april {
+    font-size: 16px;
+    line-height: 29px;
+    
+}
+
 
 
 
