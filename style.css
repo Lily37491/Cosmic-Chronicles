@@ -273,6 +273,7 @@ h4 {
     border-radius: 4px;
     margin-top: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     
 }
 
@@ -282,6 +283,7 @@ h4 {
     background-size: cover;
     border-radius: 4px;
     margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .may-not {
@@ -304,14 +306,11 @@ h4 {
     color: #031639;
     font: 29px Manrope, sans-serif;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
     line-height: 29px;
-}
-
-#pam {
-    margin: 0px;
-    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
 }
 
 .ama {
@@ -319,10 +318,102 @@ h4 {
     font: 19px Manrope, sans-serif;
     text-align: center;
     line-height: 29px;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
+.video-head {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 4px;
+    gap: 40px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 
+}
 
+.video-button {
+    padding: 10px 20px 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: BWHaasDingbat, BWHaasGroteskWeb, BWHaasText, Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+
+}
+
+.video-button:hover {
+    padding: 10px 20px 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: BWHaasDingbat, BWHaasGroteskWeb, BWHaasText, Helvetica, Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 72px;
+}
+
+.scrub {
+    color: #fff;
+    font: 16px Manrope, sans-serif;
+    line-height: inherit;
+    cursor: pointer;
+    margin: 15px 0 0;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 29px;
+    background-color: #e44d36;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.own {
+    font-family: Manrope, sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 36px;
+    
+}
+
+.pawn {
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 30px;00
+}
+
+.ace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0%;
+    margin-top: 0%;
+
+}
 /**
 .fig {
     position: relative;
