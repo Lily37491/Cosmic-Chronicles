@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
@@ -327,12 +328,12 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     width: 850px;
-    height: 500px;
+    height: 350px;
     background-size: cover;
     border-radius: 4px;
     gap: 40px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+    margin-top: 50px;
+
 
 }
 
@@ -362,8 +363,6 @@ h4 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 850px;
-    height: 72px;
 }
 
 .scrub {
@@ -371,7 +370,6 @@ h4 {
     font: 16px Manrope, sans-serif;
     line-height: inherit;
     cursor: pointer;
-    margin: 15px 0 0;
     padding: 7px 20px;
     border-radius: 4px;
     font-size: 16px;
@@ -381,10 +379,11 @@ h4 {
     background-color: #e44d36;
 }
 
-.but {
+#but {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
 }
 
 .own {
@@ -393,145 +392,39 @@ h4 {
     color: #000;
     text-align: center;
     letter-spacing: normal;
-    line-height: 36px;
-    
+    line-height: 36px;  
 }
 
-.pawn {
+#pawn {
     font-family: Manrope, sans-serif;
     font-size: 18px;
     color: #000;
     text-align: center;
     letter-spacing: normal;
-    line-height: 30px;00
+    line-height: 30px;
+    padding-top: 0%;
+    margin-top: 0px;
 }
 
 .ace {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 0%;
-    margin-top: 0%;
-
 }
-/**
-.fig {
-    position: relative;
-    resize: none;
+
+.letter {
+    margin-top: 60px;
 
 }
 
-
-.fig figcaption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    resize: none;
-    widows: 100%;
-}
-
-
-.fig img {
-    width: 850px;
-    height: 500px;
+.footer {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-**/
-/**
-span {
+    align-items: center;
+    margin-top: 80px;
+    color: #000
     font-weight: 800;
-}
-.first {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-
-img {
-height: 550px;
-width: 850px;
-border-radius: 6px;
-margin-top: 40px;
-
-}
-
-.first-child {
-    position: relative;
-    top: 221px;
-    left: 30px;
+    font-family: Manrope, sans-serif;
     font-size: 16px;
-    line-height: 29px;
-    text-align: left;
-    font-family: Manrope, sans-serif;
-    color: #ffffff; 
+    padding: 20px;
 }
-
-.second-child {
-    position: absolute;
-     top: 256px;
-     left: 30px;
-     font-weight: 800;
-     font-size: 26px;
-     text-align: left;
-     font-family: Manrope, sans-serif; 
-}
-
-
-button {
-    margin: 0px 0px 6px 0px;
-    padding: 0 8px 6px 8px;
-    background-color: #ffffff;
-    font-size: 14px;
-    line-height: 28px;
-    border-radius: 6px;
-    
-}
-
-.third {
-    position: absolute;
-    top: 295px;
-    left: 30px;
-    right: 30px;
-    bottom: 0;
-    font-weight: 500;
-    font-family: Manrope, sans-serif;
-    font-size: 34px;
-    line-height: 47px;
-    color: #ffffff;
-    
-
-}
-
-.fourth {
-    position: absolute;
-    top: 450px;
-    left: 30px;
-    margin: 0px 0px 6px 0px;
-    font-family: Manrope, sans-serif;
-    font-size: 17px;
-    line-height: 29px;
-    text-align: left;
-    color: #ffffff;
-    
-}
-/* display: flex and justify-content: center for getting an image with 
-text on it at the center of the webpage. don't use align-items: center */
-
-
-
-**/
-
-
-
-
-
-
-
-
